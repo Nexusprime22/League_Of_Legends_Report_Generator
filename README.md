@@ -4,7 +4,7 @@ League of Legends Report Generator is an unofficial League of Legends (LoL) proj
 
 It is developed in Python and uses the [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) library for the interface. Data recovery is performed from the [Riot Games's API](https://developer.riotgames.com/apis) using the [Riot Watcher](https://github.com/pseudonym117/Riot-Watcher) library.
 
-The project is still under development, it only provides a creep score analysis report. We hope to be able to provide in the near future the possibility of obtaining predictions on the habits of players.
+The project is still under development, it only provides a creep score analysis report and only works on Windows. We hope to be able to provide in the near future the possibility of obtaining predictions on the habits of players.
 
 ## Installation
 
