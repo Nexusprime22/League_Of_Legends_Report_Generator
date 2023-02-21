@@ -12,7 +12,7 @@ Download the project either in zip and unzipping it or by entering the following
 ```
 git clone https://github.com/Nexusprime22/League_Of_Legends_Report_Generator.git
 ```
-Start then the interface by executing the `report_generator.exe` file
+Start then the interface by executing the `report_generator.exe` file.
 
 ## How to use the interface
 
