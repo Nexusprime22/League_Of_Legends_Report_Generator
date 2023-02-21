@@ -1,2 +1,2 @@
-# League_Of_A.I_Open_source
-Open source project for League of A.I app
+# League_Of_Legends_REPORT_GENERATOR
+Open source project
