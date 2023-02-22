@@ -3,8 +3,6 @@ from utils.tools import jsonObjectToCSV
 from utils.tools import showCurrentTime
 from classes.Summoner import Summoner
 from classes.Summoner import gameStringArray
-# Import requestCounter to get the requestNumber
-import utils.requestManager as requestManager
 
 def getSummonersFromLeague(region: str, queueType: str, rankLeague: str):
   """
@@ -15,8 +13,6 @@ def getSummonersFromLeague(region: str, queueType: str, rankLeague: str):
   :param str rankLeague: The rank league (challenger, grandmaster or master)
   :return: a list containing summoners ids and names of summoners retrieved from the corresponding region, queue and league
   """
-  requestManager.incrementRequestNumber()
-  requestManager.pauseCodeForTimeDelayIfMaxRequest()
 
   leagueData = None
 

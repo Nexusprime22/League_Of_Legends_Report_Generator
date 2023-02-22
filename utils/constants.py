@@ -3,7 +3,7 @@ import json
 
 # API_KEY = "RGAPI-b8936b47-85d6-46d4-99b0-28ef36099814"
 # lolWatcher = LolWatcher(API_KEY)
-timeDelay = 126 # Delay for 2 minutes 6 (126 seconds, 5% margin)
+# timeDelay = 126 # Delay for 2 minutes 6 (126 seconds, 5% margin)
 
 itemsList = []
 # Opening JSON file

@@ -9,9 +9,11 @@ The project is still under development, it only provides a creep score analysis 
 ## Installation
 
 Download the project either in zip and unzipping it or by entering the following command:
+
 ```
 git clone https://github.com/Nexusprime22/League_Of_Legends_Report_Generator.git
 ```
+
 Start then the interface by executing the `report_generator.exe` file.
 
 ## How to use the interface
@@ -21,7 +23,7 @@ Start then the interface by executing the `report_generator.exe` file.
 As we currently don't have a key that can accommodate multiple user requests, you must enter an API key.
 First step is to generate an API key on [Riot Games Developer Website](https://developer.riotgames.com/) using your Riot account and copying it. Then, you will be able to add this key to our interface using the API key button in order to use it.
 
-Your key will be valid for 24 hours, you will then need to repeat the same step as before to continue using the interface.
+Your key will be valid for 24 hours, you will then need to repeat the same step as before to continue using the interface. In addition, your key only supports 100 requests every two minutes, so you will have to wait from time to time for your requests to renew.
 
 **NB:** If you get error messages when trying to start the analyse even though you added the API key, verify on [Riot Games Developer Website](https://developer.riotgames.com/) that the key that you entered is still valid. You also may wait a minute after generating the key to be usable.
 
@@ -74,8 +76,11 @@ Player reports are individual reports containing the creep score comparison betw
 
 Team reports are collective reports containing the creep score comparison between the summoners and their opponents in the last N games specified which also respects the filters. It occurs for all checked summoners in the team (Ally or Enemy depending on the button clicked). The difference for this report is that all the summoners checked must be in the same team and all filters of each summoner must be valid which makes the customization endless.
 
-When starting the analysis, a progress bar will appear to show the progress of the analysis.<br />
-**DO NOT CLOSE THE PROGRESS BAR WINDOW**.<br />
+When starting the analysis, a progress bar will appear to show the progress of the analysis. You can cancel the analysis if you want by clicking on the `Cancel` button or by closing the window.
+
+![](media/readme_images/progress_bar.png)
+| _Progress bar modal to see the status of the analysis_
+
 The reports are then saved in the `data/reports` folder as PDF files. If any filter was not met, the report will not be created.
 
 ## License
@@ -83,6 +88,7 @@ The reports are then saved in the `data/reports` folder as PDF files. If any fil
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
+
 Antonin Winterstein - antonin.winterstein@gmail.com
 
 Killian Maxel - nexusprimekillian@gmail.com
